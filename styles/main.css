@@ -9,23 +9,27 @@ body {
   margin: auto;
   text-align: center;
   align-content: center;
+  max-width: 100%;
+  height: auto;
 }
 .buttons {
   display: flex;
-  gap: 1rem;
-  padding: 1rem;
+  padding: 0.7em;
   background-color: gray;
   border-top: none;
   border-radius: 10px;
   align-content: center;
   margin: 1rem;
+  max-width: 100%;
+  height: auto;
 }
 .button {
   margin: auto;
-  gap: 1rem;
-  padding: 1rem;
+  padding: 0.7em;
   color: rgb(250, 1, 1);
   align-content: center;
+  max-width: 100%;
+  height: auto;
 }
 .info {
   gap: 1rem;
@@ -39,6 +43,7 @@ body {
 }
 .table-div {
   background-color: rgb(255, 255, 255);
+  align-content: center;
 }
 .table {
   width: 100%;
