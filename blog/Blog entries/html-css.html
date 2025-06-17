@@ -7,7 +7,7 @@
     <link href="/styles/main.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="content">
+    <div class="content" id="top">
       <div id="buttons" class="buttons">
         <legend class="button blogs-button">
           <button class="button">
@@ -31,12 +31,74 @@
         </h1>
         <h2 class="sub-title">Week 1 Technical Blog</h2>
         <h3 class="date">17 June 2025</h3>
-
-        <p></p>
-        <p></p>
-        <p></p>
+        <h4 class="p-subject">When to use Classes</h4>
+        <p>
+          Classes are a type of attribute that can be applied to HTML elements.
+          The cool thing about the class attribute is that you can apply it
+          multiple times throughout a single HTML page. Class attributes should
+          always be your first go to option when you are giving attributes to
+          elements... This is because you can always override a class attribute
+          by using an ID attribute. If you wanted certain elements to have the
+          same style you would use a class attribute - becuase you can use the
+          same class throughout different elements, across a single document.
+        </p>
+        <h4 class="p-subject">When to use Id's</h4>
+        <p>
+          Id's are another type of attribute that can be applied to HTML
+          elements. One thing about the Id attribute is that you can only use an
+          Id once, in one location, throughout a single HTML page. Id attributes
+          can be used for specific styling in a webpage, if you want to style
+          one element and override previous class attribute styling for that
+          element. A cool way to use an Id attribute is if you want to include
+          an anchor tag in your webpage. You can use the Id attribute as a
+          reference point for text that is up and down a webpage (when you use
+          the scroll bar). I will have a demonstration of this at the end of
+          this Blog post to show an example of an anchor tag being used in a
+          webpage...
+        </p>
+        <h4 class="p-subject">Classes and Id's in CSS</h4>
+        <p>
+          When working with class and Id attributes in CSS, the two different
+          attributes act the same when CSS applies the styling. Technically you
+          could use either attribute when applying styling in CSS... However, as
+          stated above it is always good practice to use the class attribute
+          first - you can always override it later with an Id attribute if you
+          need. In order to select a class when we are styling in CSS we can use
+          the class selector. The class selector is a period '.' + the class
+          name 'class-name-here' + a space ' ' and + some curly brackets '{}'.
+          Similar to class selectors, we also have Id selectors, we can use
+          these to acess a specific Id on a page. The Id selector is a hash key
+          '#' + the Id name 'Id-name-here' + a space ' ' + some curly brackets
+          '{}'.
+        </p>
+        <h4 class="img-subject">Some Images to Help you Remember</h4>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8sOdQvKv_gxotO5ittclRCudS9tVcIhJ8zA&s"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKpjKy1sS1siJimCt4kwGpfNGiTZhVT7NV5Q&s"
+        />
+        <img
+          src="https://dotnettutorials.net/wp-content/uploads/2021/10/word-image-155.png"
+        />
+        <h4 class="img-subject">Class Selector</h4>
+        <img
+          src="https://web.dev/static/learn/css/selectors/image/an-image-a-css-rule-the-ced38545b4bec.svg"
+        />
+        <h4 class="img-subject">Id Selector</h4>
+        <img
+          src="https://codewala.net/wp-content/uploads/2016/04/id-selector.png?w=869"
+        />
+        <h4 class="p-subject">
+          Demonstration of how you can you Id's as anchor points
+        </h4>
+        <p>
+          Now for a cool demonstration of how you can use Id's as anchor tags in
+          a webpage... <a href="#top">Click Here</a>
+        </p>
+        <img src="../../Photos-for-blogs/code-ss.png" />
+        <img src="../../Photos-for-blogs/code-ss2.png" />
       </div>
     </div>
-    <!-- this is a comment. -->
   </body>
 </html>
