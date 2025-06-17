@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(58, 175, 130);
+  background-image: url(https://www.shutterstock.com/image-vector/vector-seamless-pattern-blogging-social-600nw-434264536.jpg);
   display: flex;
   gap: 1rem;
   flex: 1 1 auto;
@@ -12,74 +12,26 @@ body {
   display: flex;
   gap: 1rem;
   padding: 1rem;
+  background-color: gray;
+  width: fit-content;
+  border-top: none;
+  border-radius: 10px;
+  align-content: center;
+  margin: 1rem;
 }
 .button {
   margin: auto;
   gap: 1rem;
   padding: 1rem;
+  color: rgb(250, 1, 1);
 }
-
-/*
-#container {
-  display: flexbox;
-}
-#buttons {
-  display: flex;
+.info {
   gap: 1rem;
-  flex-wrap: wrap;
-}
-.button .container {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-/*
-/* Small Mobile 
-@media screen and (min-width: 320px) {
-  #buttons {
-    display: contents;
-  }
-}
-/* Medium Mobile 
-@media screen and (min-width: 375px) {
-
-}
-/* Large Mobile 
-@media screen and (min-width: 425px) {
-
-}
-/* Tablet 
-@media screen and (min-width: 768px) {
-  #buttons {
-    display: flex;
-  }
-}
-/* Laptop 
-@media screen and (min-width: 1024px) {
-  #buttons {
-    font-size: x-large;
-    min-width: 600px;
-    max-width: 600px;
-    left: 0em;
-  }
-}
-/* Laptop Large 
-@media screen and (min-width: 1440px) {
-  #buttons {
-    font-size: xx-large;
-    min-width: 900px;
-    max-width: 1000px;
-    left: 0em;
-  }
-}
-/* 4K 
-@media screen and (min-width: 2560px) {
-  #buttons {
-    display: flex;
-  }
-  #container {
-    display: grid;
-  }
-}
-*/
+  flex: 1 1 auto;
+  background-color: white;
+  border: black;
+  border-radius: 10px;
+  align-content: center;
+  margin: 1rem;
+  text-align: center;
+} 
