@@ -35,3 +35,12 @@ body {
   margin: 1rem;
   text-align: center;
 } 
+.table-div {
+  background-color: rgb(255, 255, 255);
+}
+.table {
+  width: 100%;
+}
+#week {
+  padding: 2em;
+}
