@@ -7,6 +7,8 @@ body {
 }
 .content {
   margin: auto;
+  text-align: center;
+  align-content: center;
 }
 .buttons {
   display: flex;
@@ -43,4 +45,7 @@ body {
 }
 #week {
   padding: 2em;
+}
+#buttons {
+  align-content: center;
 }
