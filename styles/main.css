@@ -64,10 +64,14 @@ img {
   height: auto;
 }
 .p-subject {
-  font-weight: 10000;
+  font-weight: 900;
   color: coral;
 }
 .title, .sub-title, .date {
-  font-weight: 1000;
+  font-weight: 900;
   color: gold;
+}
+.p-sub-subject {
+  font-weight: 900;
+  color: orange;
 }
