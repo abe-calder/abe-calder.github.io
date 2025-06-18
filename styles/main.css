@@ -63,3 +63,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+.p-subject {
+  font-weight: 10000;
+  color: coral;
+}
+.title, .sub-title, .date {
+  font-weight: 1000;
+  color: gold;
+}
