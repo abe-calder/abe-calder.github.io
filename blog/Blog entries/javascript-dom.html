@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Blog - JS Fundamentals</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/styles/main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="content">
+      <div id="buttons" class="buttons">
+        <legend class="button">
+          <button class="button"><a href="../../index.html">Home</a></button>
+        </legend>
+        <legend class="button">
+          <button class="button">
+            <a href="/blog/blog.html">Blogs</a>
+          </button>
+        </legend>
+        <legend class="button">
+          <button class="button">
+            <a href="/Photo-gallery/photo-galley.html">About Me</a>
+          </button>
+        </legend>
+      </div>
+      <div class="info">
+        <h1 class="title">Technical Blog - JS Fundamentals</h1>
+        <h2 class="sub-title">Sprint 3 Technical Blog</h2>
+        <h3 class="date">25 June 2025</h2>
+        <h2 class="p-subject">JavaScript and its relationship to HTML and CSS</h2>
+        <p>Think of a website as if it were a building. HTML is the foundations and core structure of the building, CSS is the interior and exterior design (wallpaper, pictures, logos, etc), and JavaScript is the functionality of the building, elevator, lightswitches, electrical sockets, etc.</p>
+        <h2 class="p-subject">Control flow and Loops</h2>
+        <p>Control flow in JavaScript is essentially the order that bits of code within a program are run in. Control flow allows us to set certain data to loop if particular conditions or data conditions are met. 
+</p>
+        <p>To put these terms into an example from everyday life we can look at control flow like a calendar/clock. Every week starts on Monday, and if it is Monday, the 1st of January today, then tomorrow will be Tuesday (2nd of January). If it is Tuesday today then tomorrow will be Wednesday (3rd of January). If it's Wednesday today then tomorrow will be Thursday (4th of January), so on and so forth, up until Sunday (7th of January). Then on Sunday we know we have reached the end of the week, and that on the 8th of January, we should start a new week. 
+</p>
+        <p>So the loop repeats, the 8th of January is a monday, and we repeat this process again and again. In this situation, the condition that calls for the beginning of a new week is Sunday at 11:59:59pm. As soon as the time ticks over to 12:00:00am a new week starts, repeating the loop yet again and making it a Monday again. We can use calendars and clocks to interpret when the loop of a new week will start. We simply look at the date and time and we can be sure of when the next condition will be met, in x amount of hours, y amount of days.
+</p>
+        <p>To take it another step further, we know that a leap year occurs almost every 4 years. In a leap year February has 29 days, rather than 28. So the condition for a leap year is 4 calendar years. Which will result in February having 29 days, and then 28 days each year, up until the next leap year condition occurs; which will then repeat the loop.
+</p>
+        <h2 class="p-subject">The DOM (Document Object Model)</h2>
+        <p>The DOM (Document Object Model) is an object representation of an entire HTML document. The DOM is sort of like the glue that ties HTML, CSS, and JavaScript together, it's how we interact with those three. Unlike HTML, CSS, and JavaScript, the DOM is not a programming language. However, without it the JavaScript programming language wouldn't have any model or way to interact with web pages, HTML documents, SVG documents, and their components.
+</p>
+        <p>Every HTML element has a JavaScript equivalent representation. By having an object representation (the DOM), you can not only access the elements, but also write and modify them, as well as being able to create elements dynamically and add them to the DOM. The DOM deals with EVERYTHING that lives within a document.
+</p>
+        <p>Below there is an image of a tree of things called nodes. These nodes are structured in HTML, however we can access and modify these nodes through JavaScript.
+</p>
+        <p><img src="../../Photos-for-blogs/DOM-html.png"></p>
+        <p>In order to access these element nodes in javascript that are shown above. We can use 'document.'' to access certain nodes. For example 'document.getElementsByTagName("p");' This would access the <strong>first</strong> p element that is displayed in the document. The problem with using getElementsByTagName is that sometimes we have more than one p element and we want to access a specific one. If we add a class or id attribute to a p element then we can use the dom to access elements with certain ids or classes.
+        </p>
+        <p>Let's say we have 2 different HTML p elements, the first has an id='p-one', and the second has a class='p-two'. If we want to access the first p element in JavaScript we can use: 'document.getElementById(“p-one”)', and if we wanted to access the second one we would use: 'document.getElementByClassName(“p-two”)'. If we want, we can then declare these elements as JavaScript variables using: 'let pElementOne = document.getElementById(“p-one”);'.
+</p>
+        <p><img src="../../Photos-for-blogs/HTML-DOm-ex.png"><img src="../../Photos-for-blogs/HS-DOM-ex.png"></p>
+        <h2 class="p-subject">Accessing Arrays and Objects</h2>
+        <p>An array in JavaScript is a way of storing a collection of data using bracket notation. Think of arrays as if they are a container in which we can store data, such as, text (strings), numbers, bools (true / false statements), etc. In order to access data that is in an array we use something called bracket notation and we input the numeric index that the data is stored at. Say there was an array of 4 strings (words) and it looked like this: 'let thisArray = ['one', 'two', 'three', 'four'];'. In order to access specific strings within that array we use numbers that are stored sequentially, starting at 0. So to access the string 'one', we would access the array followed by some brackets and the data we wanted to access, in this case the first one 'thisArray[0]''. If we wanted to access the string 'four', we would again access the array, followed by some brackets and the data we wanted to access 'thisArray[3]'. This would access the string 'four'.
+</p>
+        <p><img src=""></p>
+        <h2 class="p-subject">Functions</h2>
+        <p></p>
+      </div>
+    </div>
+  </body>
+</html>
